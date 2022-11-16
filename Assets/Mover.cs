@@ -5,15 +5,11 @@ using UnityEngine;
 public class Mover : MonoBehaviour
 {
     [SerializeField] float speed = 2f;
-    void Start()
-    {
-        
+    Rigidbody2D rb2d;
+    private void Awake() {
+        rb2d = GetComponent<Rigidbody2D>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        transform.position = new Vector3(transform.position.x + Input.GetAxis("Horizontal") * speed * Time.deltaTime,
-                    transform.position.y + Input.GetAxis("Vertical") * speed * Time.deltaTime, 0);
+    public void Move(Vector3 direction){
+        rb2d.velocity = direction * speed;
     }
 }
