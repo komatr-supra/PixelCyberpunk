@@ -1786,7 +1786,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Wall_props_shelf_book: -1625356239
+      Chair_blue_side: -1936219971
       pixel-cyberpunk-interior-1.0.0_108: -1646288246
       pixel-cyberpunk-interior-1.0.0_38: 1139326010
       pixel-cyberpunk-interior-1.0.0_149: -1631820025
@@ -1940,8 +1940,8 @@ TextureImporter:
       pixel-cyberpunk-interior-1.0.0_117: 1972032671
       pixel-cyberpunk-interior-1.0.0_65: 967482617
       Props_cup_white: -1525846302
+      Wall_props_shelf_book: -1625356239
       pixel-cyberpunk-interior-1.0.0_101: 1950849842
-      Chair_blue_side: -1936219971
       Desk_big_red: 1772201475
   spritePackingTag: 
   pSDRemoveMatte: 0
